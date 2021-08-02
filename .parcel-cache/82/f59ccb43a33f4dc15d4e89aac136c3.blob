@@ -1,5 +1,0 @@
-import   "d3dfc027196df876626c47bef188877c:react";
-import   "d3dfc027196df876626c47bef188877c:react-dom";
-import   "d3dfc027196df876626c47bef188877c:./index.css";
-import   "d3dfc027196df876626c47bef188877c:./AppContainer";
-$d3dfc027196df876626c47bef188877c$import$9c1aa63963514e3e$9099ad97b570f7c.render(/*#__PURE__*/ $d3dfc027196df876626c47bef188877c$import$f02ba03fc070e88c$9099ad97b570f7c.createElement($d3dfc027196df876626c47bef188877c$import$b6f7491bac9a0e81$9099ad97b570f7c, null), document.getElementById('root'));

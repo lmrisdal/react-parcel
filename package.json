@@ -1,7 +1,6 @@
 {
   "name": "react-parcel",
   "version": "1.0.0",
-  "main": "build/index.html",
   "license": "MIT",
   "dependencies": {
     "react": "^17.0.2",
@@ -9,11 +8,11 @@
   },
   "scripts": {
     "start": "parcel serve public/index.html",
-    "build": "rm -rf build/*; parcel build public/index.html",
-    "surge": "rm -rf build/*; parcel build public/index.html; echo fragile-calendar.surge.sh > build/CNAME; surge build"
+    "build": "rm -rf build/*; parcel build public/index.html --dist-dir build",
+    "surge": "rm -rf build/*; parcel build public/index.html --dist-dir build; echo fragile-calendar.surge.sh > build/CNAME; surge build"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.8",
+    "@babel/core": "^7.0.0-0",
     "@babel/plugin-transform-react-jsx": "^7.14.9",
     "@babel/preset-env": "^7.14.9",
     "@babel/preset-react": "^7.14.5",
@@ -25,7 +24,7 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
-    "parcel": "^2.0.0-beta.3.1",
+    "parcel": "^2.0.0-nightly.792",
     "postcss": "^8.3.6",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",

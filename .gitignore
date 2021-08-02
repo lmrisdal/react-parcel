@@ -42,6 +42,8 @@ node_modules
 bower_components
 dist
 build
+.cache
+.parcel-cache
 
 *.sublime*
 
