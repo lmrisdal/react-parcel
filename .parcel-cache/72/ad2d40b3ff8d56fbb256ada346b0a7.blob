@@ -1,0 +1,11 @@
+import   "92c2ab9f441c95f67af4c7b2ae470445:React";
+const $92c2ab9f441c95f67af4c7b2ae470445$var$Todo = $92c2ab9f441c95f67af4c7b2ae470445$import$f5fd0c3674782807$ce1de884d18aca73(({ message: message  })=>{
+    return(/*#__PURE__*/ React.createElement("div", {
+        className: ""
+    }, /*#__PURE__*/ React.createElement("h2", null, message), /*#__PURE__*/ React.createElement("div", {
+        className: "actions"
+    }, /*#__PURE__*/ React.createElement("button", {
+        className: "btn"
+    }, "Delete"))));
+});
+var $92c2ab9f441c95f67af4c7b2ae470445$export$9099ad97b570f7c = $92c2ab9f441c95f67af4c7b2ae470445$var$Todo;

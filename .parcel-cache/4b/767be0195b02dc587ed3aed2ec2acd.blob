@@ -1,0 +1,9 @@
+import   "4f99f241060bde11d683188a2a3e0757:react";
+import   "4f99f241060bde11d683188a2a3e0757:./components/App";
+const $4f99f241060bde11d683188a2a3e0757$var$AppContainer = ()=>{
+    const props = {
+        message: 'Hello World'
+    };
+    return(/*#__PURE__*/ $4f99f241060bde11d683188a2a3e0757$import$f02ba03fc070e88c$9099ad97b570f7c.createElement($4f99f241060bde11d683188a2a3e0757$import$18029e61ec436cd0$9099ad97b570f7c, props));
+};
+var $4f99f241060bde11d683188a2a3e0757$export$9099ad97b570f7c = $4f99f241060bde11d683188a2a3e0757$var$AppContainer;

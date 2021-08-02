@@ -1,0 +1,6 @@
+function $d3031e6356b630c780bd39e8a82d401e$var$Backdrop() {
+    return(/*#__PURE__*/ React.createElement("div", {
+        class: "absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
+    }));
+}
+var $d3031e6356b630c780bd39e8a82d401e$export$9099ad97b570f7c = $d3031e6356b630c780bd39e8a82d401e$var$Backdrop;

@@ -1,0 +1,11 @@
+import   "6763d45d5986d21b63dc6f3d93818711:./Todo";
+import   "6763d45d5986d21b63dc6f3d93818711:./Backdrop";
+import   "6763d45d5986d21b63dc6f3d93818711:React";
+const $6763d45d5986d21b63dc6f3d93818711$var$App = $6763d45d5986d21b63dc6f3d93818711$import$f5fd0c3674782807$ce1de884d18aca73((props)=>{
+    return(/*#__PURE__*/ React.createElement("div", {
+        className: "min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12"
+    }, /*#__PURE__*/ React.createElement("div", {
+        className: "elative py-3 sm:max-w-xl sm:mx-auto"
+    }, /*#__PURE__*/ React.createElement($6763d45d5986d21b63dc6f3d93818711$import$48ec0d0953a5fe37$9099ad97b570f7c, null), /*#__PURE__*/ React.createElement("h1", null, "My Todos"), /*#__PURE__*/ React.createElement($6763d45d5986d21b63dc6f3d93818711$import$75f97239fb872c13$9099ad97b570f7c, props))));
+});
+var $6763d45d5986d21b63dc6f3d93818711$export$9099ad97b570f7c = $6763d45d5986d21b63dc6f3d93818711$var$App;

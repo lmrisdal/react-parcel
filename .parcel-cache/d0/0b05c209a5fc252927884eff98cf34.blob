@@ -1,0 +1,1 @@
+{"mappings":"AACA,cAAA,CACA,oBAAA,CAEA,mBAAA","sources":["src/index.css"],"sourcesContent":["/* purgecss start ignore */\n@tailwind  base;\n@tailwind  components;\n/* purgecss end ignore */\n@tailwind  utilities;"],"names":[],"version":3,"file":"index.HASH_REF_14c5b5ea672d22b08fde7362471b79a9.css.map"}
