@@ -1,14 +1,33 @@
-import { memo } from "React";
+import { useState } from "React";
+import Modal from "./Modal";
+import Backdrop from "./Backdrop";
 
-const Todo = memo(({message}) => {
+function Todo(props) {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
+  function deleteHandler() {
+    console.log("Clicked delete");
+    setModalIsOpen(true);
+  }
+
+  function closeModalHandler() {
+    setModalIsOpen(false);
+  }
+
   return (
-    <div className="">
-      <h2>{message}</h2>
+    <div className="card">
+      <h2>{props.text}</h2>
       <div className="actions">
-        <button className="btn">Delete</button>
+        <button className="btn" onClick={deleteHandler}>
+          Delete
+        </button>
       </div>
+      {modalIsOpen && (
+        <Modal onCancel={closeModalHandler} onConfirm={closeModalHandler} />
+      )}
+      {modalIsOpen && <Backdrop onCancel={closeModalHandler} />}
     </div>
   );
-});
+}
 
 export default Todo;
