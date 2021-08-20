@@ -1,13 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { render } from "react-dom";
 import { BrowserRouter } from "react-router-dom";
 
 import "./index.css";
 import App from "./App";
 
-ReactDOM.render(
+const Application: React.SFC<{}> = () => (
   <BrowserRouter>
     <App />
-  </BrowserRouter>,
-  document.getElementById("root")
+  </BrowserRouter>
 );
+
+render(<Application />, document.getElementById("root"));
