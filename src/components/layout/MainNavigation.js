@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 import * as classes from "./MainNavigation.module.css";
 
-function MainNavigation() {
+function MainNavigation() { 
   return (
     <header className={classes.header}>
       <div className={classes.logo}>React Meetups</div>
