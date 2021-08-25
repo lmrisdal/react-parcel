@@ -3,6 +3,8 @@
   "plugins": {
     "autoprefixer": {},
     "tailwindcss": {},
-    "postcss-nested": {}
+    "postcss-nested": {},
+    "postcss-import-url": {},
+    "postcss-import": {}
   }
 }

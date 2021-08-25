@@ -1,9 +1,12 @@
+import { useHistory } from "react-router";
 import NewMeetupForm from "../components/meetups/NewMeetupForm";
 
 function NewMeetupPage() {
+  const history = useHistory();
 
   function addMeetupHandler(meetupData) {
     console.log(meetupData);
+    history.replace("/");
   }
 
   return (
